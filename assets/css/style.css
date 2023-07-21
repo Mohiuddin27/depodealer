@@ -1,0 +1,117 @@
+.login-card-body h3{
+    color:#00014E;
+}
+.login-card-body input{
+    border:1px solid #00014E;
+}
+.login-btn{
+    background-color: #E95106!important;
+    color:white!important;
+}
+.login-close{
+    float: right;background-color: #00014E;border-radius: 50%;color:white;padding:4px 10px
+}
+.hero-content{
+    padding-top: 100px;
+    
+}
+.hero-row{
+    width:70%;
+    margin-top:20px;
+    margin:0 auto;
+    margin-bottom:100px;
+    padding:10px;
+    border-radius: 5px;
+
+    background-color: rgba(245, 245, 245, 0.409);
+}
+.hero-home{
+    background: url('https://depodealer.com/wp-content/uploads/2023/01/banner1-cp-ultra.jpg');
+}
+.hero-content h4{
+    color:white;
+    font-size:20px;
+}
+.hero-content h1{
+    color:white;
+    font-size:49px;
+}
+.hero-row .form-control,.hero-row .form-select{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.ads-categories img{
+    width:64px;
+    height:64px;
+}
+.ads-categories .card:hover{
+    border: 2px solid #E95106;
+}
+.ads-categories p{
+    color:#F8425B;
+}
+.slick-slider{
+    background-color: white!important;
+}
+.featured-ads .card{
+    border-radius: 10px;
+}
+.featured-ads img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.featured-ads .card .card-title{
+    position: relative;
+}
+.featured-ads .card .card-title .card-title-child{
+    position:absolute;
+    top:0;
+    left:68%;
+    width:100%;
+    height:100%;
+   
+}
+.ads-cardbody h4{
+    font-size:20px;
+}
+.featured-ads .badge{
+    background-color: #E95106;
+}
+ /* the slides */
+ .slick-slide {
+    margin: 0 5px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -5px;
+}
+.slick-prev{
+    z-index:1000;
+    /* margin-top:-200px!important; */
+}
+.slick-next{
+    margin-right:30px;
+}
+.slick-prev::before,.slick-next::before{
+    background-color: #00014E;
+    border-radius: 50%;
+    padding:10px;
+   
+}
+
+@media(max-width:600px){
+    .hero-content h1{
+        font-size:30px;
+    }
+    .hero-content{
+        padding-top: 50px;
+        
+    }
+    .hero-row{
+        width:100%;
+    }
+    .hero-row input,.hero-row select{
+        margin-bottom:10px;
+    }
+}
