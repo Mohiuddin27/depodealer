@@ -125,6 +125,9 @@ footer h3,footer h5{
 footer a{
     color:#999999!important;
 }
+.cat-card .card-body h4{
+    font-weight: 600;
+}
 @media(max-width:600px){
     .hero-content h1{
         font-size:30px;
@@ -148,5 +151,9 @@ footer a{
     }
     .lat-adsbody h5{
         font-size:12px!important;
+    }
+   
+    .cat-card .card-body p{
+       display:none;
     }
 }
