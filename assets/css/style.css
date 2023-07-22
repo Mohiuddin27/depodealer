@@ -1,3 +1,5 @@
+
+
 .login-card-body h3{
     color:#00014E;
 }
@@ -99,7 +101,30 @@
     padding:10px;
    
 }
-
+.lat-adsbody h3{
+ font-size:20px;
+}
+.invest-h5{
+    font-size:15px;
+}
+.f-a{
+    color:slategray;
+    font-weight: 600;
+    font-size:18px;
+}
+.f-a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #191A1F;
+    color:white;
+}
+footer h3,footer h5{
+    color:white;
+}
+footer a{
+    color:#999999!important;
+}
 @media(max-width:600px){
     .hero-content h1{
         font-size:30px;

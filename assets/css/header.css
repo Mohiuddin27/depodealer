@@ -74,7 +74,7 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Heebo', sans-serif;
+  font-family: Montserrat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -590,7 +590,7 @@ textarea.form-control {
 }
 
 .table-price h5 {
-  font-family: sans-serif;
+  font-family: Montserrat;
   font-weight: 700;
 }
 
@@ -718,7 +718,7 @@ textarea.form-control {
 .modal-number {
   margin: 15px 0px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Montserrat;
   color: var(--primary);
 }
 
@@ -1325,7 +1325,7 @@ textarea.form-control {
 .product-price {
   font-weight: 700;
   font-size: 16px !important;
-  font-family: sans-serif;
+  font-family:Montserrat;
 }
 
 .product-price span {
@@ -1513,7 +1513,7 @@ textarea.form-control {
 .feature-price {
   font-size: 22px;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: Montserrat;
   color: #eb5206;
   margin-right: 30px;
 }
@@ -1801,7 +1801,7 @@ textarea.form-control {
 
 .price-head h3 {
   font-size: 40px;
-  font-family: sans-serif;
+  font-family: Montserrat;
   color: var(--primary);
   margin-bottom: 20px;
   letter-spacing: -0.5px;
@@ -2157,7 +2157,7 @@ textarea.form-control {
 }
 
 .counter-content h2 {
-  font-family: sans-serif;
+  font-family: Montserrat;
 }
 
 .counter-content p {
@@ -4411,7 +4411,7 @@ textarea.form-control {
 
 .dash-focus h2 {
   color: var(--white);
-  font-family: sans-serif;
+  font-family:Montserrat;
 }
 
 .dash-focus p {
