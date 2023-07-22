@@ -139,4 +139,14 @@ footer a{
     .hero-row input,.hero-row select{
         margin-bottom:10px;
     }
+    .lat-adsbody h3{
+        font-size:14px!important;
+        line-height: 17px;
+    }
+    .lat-adsbody h4{
+        font-size:12px!important;
+    }
+    .lat-adsbody h5{
+        font-size:12px!important;
+    }
 }
