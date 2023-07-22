@@ -152,7 +152,9 @@ footer a{
     .lat-adsbody h5{
         font-size:12px!important;
     }
-   
+    .cat-card{
+        width:115px!important;
+    }
     .cat-card .card-body p{
        display:none;
     }
