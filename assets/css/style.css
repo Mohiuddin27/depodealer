@@ -128,6 +128,110 @@ footer a{
 .cat-card .card-body h4{
     font-weight: 600;
 }
+.f1{
+   
+    border-right: 1px solid #cfd9e0;
+    margin-right: 15px;
+}
+.top-item span{
+    font-size:13px;
+}
+.top-item-two div{
+    border: 2px solid #999999;
+    padding:5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.top-item-two div:hover{
+    border: 2px solid #E95106;
+}
+.top-item-two div i{
+    font-size:12px;
+    font-weight: 600;
+    color:#787878;
+}
+.top-item-two div span{
+    font-size:12px;
+    font-weight: 600;
+    color:#787878;
+}
+.small-slider-container .slick-prev{
+opacity: 0!important;
+}
+.small-slider-container .slick-next{
+    opacity: 0!important;
+    }
+
+.large-slider-container .slick-prev{
+    margin-left:10px;
+   
+}
+.large-slider-container .slick-next{
+    margin-right:30px;
+   
+}
+.ads-description h4{
+    color:#777777;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.ad-des{
+    color:#777777;
+    font-weight: 600; 
+    text-align: justify;
+}
+.contact-info h4,.contact-info a{
+    color:#5C5E5C;
+    font-weight: 600;
+}
+.right-three-head{
+    position: relative;
+}
+.right-three-head .bd-item{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.item-title-div{
+    position: absolute;
+    top:85%;
+    background-color: rgba(0, 0, 0, 0.434);
+  
+    padding:10px;
+}
+.item-title{
+    color:white!important;
+    font-weight:600;
+}
+.right-three .slick-next{
+    display: none!important;
+}
+.right-three .slick-prev{
+    display: none!important;
+}
+.cate-item img{
+  width:32px;
+  height:32px;
+}
+.cate-item{
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+}
+.cate-item h4{
+    font-weight: 600;
+}
+.cate-item h4:hover
+{
+  color:#EF5D50;
+  font-weight: 600;
+}
+.cate-item:hover .card {
+    background-color: #EF5D50; 
+    color: white!important; 
+  }
+  .cate-item:hover {
+    border-bottom-color: #EF5D50;
+  }
 @media(max-width:600px){
     .hero-content h1{
         font-size:30px;
@@ -158,4 +262,38 @@ footer a{
     .cat-card .card-body p{
        display:none;
     }
+    .f1{
+   
+        border-right: 1px solid #cfd9e0;
+        margin-right: 5px;
+    }
+    .top-item i{
+        font-size:10px;
+    }
+    .top-item span{
+        font-size:10px;
+        font-weight:600;
+    }
+    .top-item-two div i{
+       display: none;
+    }
+    .top-item-two div span{
+        font-size:12px;
+        font-weight: 600;
+        color:#787878;
+    }
+    .large-slider-container img{
+        object-fit: contain!important;
+       
+    }
+    .small-slider-container img{
+       object-fit: cover;
+        }
+
+        @media(max-width:480px){
+            .large-slider-container img{
+                width:346px;
+                height:214.292px;
+            }
+        }
 }
