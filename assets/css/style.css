@@ -232,6 +232,29 @@ opacity: 0!important;
   .cate-item:hover {
     border-bottom-color: #EF5D50;
   }
+  .login-panel .card{
+    width:40%;
+    margin:0 auto;
+    border-radius: 10px;
+  }
+  .login-panel .card-title{
+    background:url('https://cdn.pixabay.com/photo/2015/09/04/23/05/night-923007_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    font-weight: 600;
+
+  }
+  .login-panel .card-title h3{
+    color:white;
+  }
+  .login-panel .card-title p{
+    text-transform: capitalize;
+  }
+
 @media(max-width:600px){
     .hero-content h1{
         font-size:30px;
@@ -289,6 +312,17 @@ opacity: 0!important;
     .small-slider-container img{
        object-fit: cover;
         }
+        .login-panel .card{
+            width:100%;
+            margin:0 auto;
+           
+          }
+          .login-panel .card-title p{
+            font-size:12px;
+          }
+          .rem, .fg{
+            font-size:14px;
+          }
 
         @media(max-width:480px){
             .large-slider-container img{
