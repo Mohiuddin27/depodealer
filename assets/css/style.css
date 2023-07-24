@@ -320,6 +320,209 @@ opacity: 0!important;
     font-weight: 600;
     font-size:18px;
   }
+
+  /* add your post second part */
+
+
+#regForm {
+    background-color: #ffffff;
+   
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#regForm h1{
+    margin-bottom:20px;
+    font-size:30px;
+    text-align: center;
+}
+
+
+
+input.invalid {
+    background-color: #ffdddd
+}
+
+.tab {
+    display: none
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8
+}
+
+#prevBtn {
+    background-color: #bbbbbb
+}
+
+.step {
+   
+    /* height: 15px; */
+    width: 100%;
+    margin: 0 2px;
+    /* background-color: #bbbbbb; */
+    font-size:20px;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5
+}
+
+.step.active {
+    opacity: 1
+}
+
+.step.finish {
+    color: #4CAF50
+}
+
+.all-steps {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.thanks-message {
+    display: none;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.container input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+#nextBtn{
+    background-color: #00014E;
+    color:white;
+}
+.uploading{
+   
+    border:1px dotted #00014E;
+   
+   
+}
+
+#icon-hide{
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+}
+.uploading img{
+    width:100%;
+}
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.promote-your-add{
+    width:60%;
+    margin:0 auto;
+
+}
+.standard-ad{
+    display:flex;
+    justify-content: space-between;
+    border:2px solid #E95106;
+    padding:10px;
+    border-radius: 10px;
+}
+.top-up-day span{
+    border:1px solid #E95106;
+    padding:3px;
+    margin-right:4px;
+    border-radius: 10px;
+    font-size:20px;
+}
+.top-up{
+    border:2px solid #00014E;
+    border-radius: 10px;
+    padding:10px;
+
+}
+.topup h4{
+    font-size:25px!important;
+    font-weight: 600;
+}
 @media(max-width:600px){
     .hero-content h1{
         font-size:30px;
@@ -394,10 +597,53 @@ opacity: 0!important;
             margin-top:5px;
             padding-bottom: 3px;
           } 
+          #imageContainer{
+            margin-bottom:20px;
+          }
+          #imagePreview-one{
+            width:60px!important;
+            height:60px!important;
+           
+          }
+          #imagePreview-two{
+            width:60px!important;
+            height:60px!important;
+          }
+          #imagePreview-three{
+            width:60px!important;
+            height:60px!important;
+          }
+          #imagePreview-four{
+            width:60px!important;
+            height:60px!important;
+          }
+          #imagePreview-five{
+            width:60px!important;
+            height:60px!important;
+          }
+          #imagePreview-six{
+            width:60px!important;
+            height:60px!important;
+          }
         @media(max-width:480px){
             .large-slider-container img{
                 width:346px;
                 height:214.292px;
+            }
+            .all-steps .step{
+                font-size:14px;
+            }
+            .promote-your-add{
+                width:100%;
+            }
+            .top-up-day  span{
+                font-size:14px;
+            }
+            .top-up h3{
+                font-size:14px!important;
+            }
+            .top-up h5{
+                font-size:15px!important;
             }
         }
 }

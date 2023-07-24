@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload with Preview</title>
+</head>
+<body>
+    <h1>Image Upload with Preview</h1>
+    <div id="imageContainer" style="position: relative; display: inline-block;">
+        <img id="imagePreview" src="default-image.jpg">
+        <input type="file" id="imageInput" accept="image/*">
+    </div>
+    <script>
+        document.getElementById('imageInput').addEventListener('change', function(event) {
+            var imageFile = event.target.files[0];
+            var imagePreview = document.getElementById('imagePreview');
+
+            if (imageFile) {
+                var reader = new FileReader();
+
+                reader.onload = function() {
+                    imagePreview.src = reader.result;
+                }
+
+                reader.readAsDataURL(imageFile);
+            }
+        });
+    </script>
+</body>
+</html>
