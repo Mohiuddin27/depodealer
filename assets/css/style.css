@@ -255,6 +255,71 @@ opacity: 0!important;
     text-transform: capitalize;
   }
 
+  .dash-left-side .card-title .usname{
+    color:#00014E;
+    font-weight: 600;
+    padding-bottom:3px;
+  } 
+  .dash-left-side .card{
+    border:1px solid #00014E;
+  }
+  .dash-left-side .dropdown a{
+    background-color: transparent!important;
+    color:black;
+    border:none;
+  }
+  .dash-left-side .dropdown a:hover{
+    background-color: #00014E!important;
+    color:white;
+  }
+  .right-dash-one{
+    background: #0083c9!important;
+    background-image: url('../images/total-listing.png')!important;
+    background-position: right center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+  }
+  .right-dash-one h4,.right-dash-one h5{
+    color:white;
+    font-weight: 600;
+    font-size:18px;
+  }
+  .right-dash-two{
+    background: #2fb82f!important;
+    background-image: url('../images/active-listing.png')!important;
+    background-position: right center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+  }
+  .right-dash-two h4,.right-dash-two h5{
+    color:white;
+    font-weight: 600;
+    font-size:18px;
+  }
+  .right-dash-three{
+    background: #f04d4e!important;
+    background-image: url('../images/expired-listing.png')!important;
+    background-position: right center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+  }
+  .right-dash-three h4,.right-dash-three h5{
+    color:white;
+    font-weight: 600;
+    font-size:18px;
+  }
+  .right-dash-four{
+    background: #ff9700!important;
+    background-image: url('../images/pending-listing.png')!important;
+    background-position: right center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+  }
+  .right-dash-four h4,.right-dash-four h5{
+    color:white;
+    font-weight: 600;
+    font-size:18px;
+  }
 @media(max-width:600px){
     .hero-content h1{
         font-size:30px;
@@ -323,7 +388,12 @@ opacity: 0!important;
           .rem, .fg{
             font-size:14px;
           }
-
+        
+          .dash-left-side .card-title .usname{
+           
+            margin-top:5px;
+            padding-bottom: 3px;
+          } 
         @media(max-width:480px){
             .large-slider-container img{
                 width:346px;
